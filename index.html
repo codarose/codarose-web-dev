@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Single-page developer portfolio</title>
+  </head>
+  <body>
+    <?php include('sendmail.php'); ?>
+
+    <header>
+      <div class="content">
+        <span class="myname">estherrose</span>
+        <nav class="nav__socials">
+          <ul>
+            <li>
+              <a href="https://github.com/codarose"
+                ><img
+                  src="assets/images/icon-github.svg"
+                  alt="navigate to my github page"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.frontendmentor.io/profile/codarose"
+                ><img
+                  src="assets/images/icon-frontend-mentor.svg"
+                  alt="navigate to my front-end mentor portfolio"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/esther-kearney-4757698a/"
+                ><img
+                  src="assets/images/icon-linkedin.svg"
+                  alt="navigate to my linkedIn page"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/estherauthor"
+                ><img
+                  src="assets/images/icon-twitter.svg"
+                  alt="navigate to my twitter feed"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="content">
+          <div class="hero-background-container">
+            <img src="assets/images/brain-colors-3.png" alt="" />
+          </div>
+          <div class="hero-image__container">
+            <img
+              src="assets/images/estherrose3.png"
+              alt="a cheeky picture of Esther Rose"
+              class="hero__image"
+            />
+          </div>
+          <div class="hero-text">
+            <h1 class="hero__header">
+              Nice to meet you! <br />I'm <span>Esther Kearney</span>.
+            </h1>
+            <p class="hero__description">
+              Based in the frigid tundra of Minneapolis, I'm a developer, a
+              project-driven tech generalist, and a teacher passionate about
+              building apps and helping others to do the same.
+            </p>
+            <a href="#contact-form" class="contact-btn">Contact me</a>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="content">
+          <h2>Skills</h2>
+          <div class="skills-flex">
+            <h3 class="skill">
+              HTML
+              <span>15 Years Experience</span>
+            </h3>
+            <h3 class="skill">
+              CSS
+              <span>10 Years Experience</span>
+            </h3>
+            <h3 class="skill">
+              JavaScript
+              <span>12 Years Experience</span>
+            </h3>
+            <h3 class="skill">React Native <span>5 Years Experience</span></h3>
+            <h3 class="skill">React <span>5 Years Experience</span></h3>
+            <h3 class="skill">
+              Python
+              <span>10 Years Experience</span>
+            </h3>
+            <h3 class="skill">
+              Pytorch
+              <span>1 Year Experience</span>
+            </h3>
+            <h3 class="skill">
+              Curriculum Development
+              <span>7 Years Experience</span>
+            </h3>
+            <h3 class="skill">
+              Adult Education
+              <span>6 Years Experience</span>
+            </h3>
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <!-- <div class="contact-background-container">
+          <img src="assets/images/pen-ink.png" alt="" />
+        </div> -->
+        <div class="content">
+          <div class="flex">
+            <h2>Projects</h2>
+            <a href="#contact-form" class="contact-btn accent-contrast"
+              >Contact me</a
+            >
+          </div>
+          <a href="" class="project__btn"></a>
+          <div class="flex-projects">
+            <section class="project__card">
+              <div class="card-image">
+                <div class="hover-project-overlay">
+                  <a
+                    href="https://codarose.github.io/to-do-app-prod/"
+                    class="project__btn"
+                    >View project</a
+                  >
+                  <a
+                    href="https://github.com/codarose/to-do-app-prod"
+                    class="project__btn"
+                    >View code</a
+                  >
+                </div>
+                <img
+                  src="assets/images/todo-react.png"
+                  alt="image of a todo app made with react, in dark mode"
+                />
+              </div>
+              <h4 class="project__name">
+                Light/Dark Mode Todo App with Drag & Drop - React.js
+              </h4>
+              <p class="project__skills">
+                <span> React </span>
+              </p>
+              <div class="small-medium-proj-buttons">
+                <a
+                  href="https://codarose.github.io/to-do-app-prod/"
+                  class="project__btn"
+                  >View project</a
+                >
+                <a
+                  href="https://github.com/codarose/to-do-app-prod"
+                  class="project__btn"
+                  >View code</a
+                >
+              </div>
+            </section>
+
+            <section class="project__card">
+              <div class="card-image">
+                <div class="hover-project-overlay">
+                  <a
+                    href="https://codarose.github.io/news-homepage-main/"
+                    class="project__btn"
+                    >View project</a
+                  >
+                  <a
+                    href="https://github.com/codarose/news-homepage-main"
+                    class="project__btn"
+                    >View code</a
+                  >
+                </div>
+                <img
+                  src="assets/images/news-page-css.png"
+                  alt="image of mock news website home screen, made with html and css"
+                />
+              </div>
+              <h4 class="project__name">News Homepage</h4>
+              <p class="project__skills">
+                <span> HTML</span> <span>CSS</span><span>Javascript</span>
+              </p>
+              <div class="small-medium-proj-buttons">
+                <a
+                  href="https://codarose.github.io/news-homepage-main/"
+                  class="project__btn"
+                  >View project</a
+                >
+                <a
+                  href="https://github.com/codarose/news-homepage-main"
+                  class="project__btn"
+                  >View code</a
+                >
+              </div>
+            </section>
+
+            <section class="project__card">
+              <div class="card-image">
+                <div class="hover-project-overlay">
+                  <a
+                    href="https://myth-maker-01.netlify.app/"
+                    class="project__btn"
+                    >View project</a
+                  >
+                  <a
+                    href="https://github.com/codarose/myth-maker"
+                    class="project__btn"
+                    >View code</a
+                  >
+                </div>
+                <img src="assets/images/myth-maker-next.png" alt="" />
+              </div>
+              <h4 class="project__name">
+                Storytelling app made with next.js & openAI API
+              </h4>
+              <p class="project__skills">
+                <span> Next.js </span>
+              </p>
+              <div class="small-medium-proj-buttons">
+                <a
+                  href="https://myth-maker-01.netlify.app/"
+                  class="project__btn"
+                  >View project</a
+                >
+                <a
+                  href="https://github.com/codarose/myth-maker"
+                  class="project__btn"
+                  >View code</a
+                >
+              </div>
+            </section>
+
+            <section class="project__card">
+              <div class="card-image">
+                <div class="hover-project-overlay">
+                  <a
+                    href="https://github.com/codarose/Countable"
+                    class="project__btn"
+                    >View code</a
+                  >
+                </div>
+                <img src="assets/images/countable.png" alt="" />
+              </div>
+              <h4 class="project__name">
+                Behavioral Research App - Work in Process
+              </h4>
+              <p class="project__skills">
+                <span> React Native </span>
+              </p>
+              <div class="small-medium-proj-buttons">
+                <a
+                  href="https://github.com/codarose/Countable"
+                  class="project__btn"
+                  >View code</a
+                >
+              </div>
+            </section>
+
+            <section class="project__card">
+              <div class="card-image">
+                <img
+                  src="assets/images/PDQ-app.png"
+                  alt="image of homescreen of PDQ app"
+                />
+              </div>
+              <h4 class="project__name">
+                PDQ Medical App - Available as a Mobile App in the Apple or
+                Android app store
+              </h4>
+              <p class="project__skills">
+                <span> React Native </span>
+              </p>
+            </section>
+            <section class="project__card">
+              <div class="card-image">
+                <div class="hover-project-overlay">
+                  <a
+                    href="https://codarose.github.io/food-order-app/"
+                    class="project__btn"
+                    >View project</a
+                  >
+                  <a
+                    href="https://github.com/codarose/food-order-app"
+                    class="project__btn"
+                    >View code</a
+                  >
+                </div>
+                <img
+                  src="assets/images/thai-food-react.png"
+                  alt="image of the homescreen of a food order web app"
+                />
+              </div>
+              <h4 class="project__name">Food Order App</h4>
+              <p class="project__skills">
+                <span> React.js </span>
+              </p>
+              <div class="small-medium-proj-buttons">
+                <a
+                  href="https://codarose.github.io/food-order-app/"
+                  class="project__btn"
+                  >View project</a
+                >
+                <a
+                  href="https://github.com/codarose/food-order-app"
+                  class="project__btn"
+                  >View code</a
+                >
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <div class="bottom">
+        <div class="content">
+          <section class="contact">
+            <div class="contact-flex">
+              <div class="contact-text">
+                <h2 id="contact-form">Contact</h2>
+                <p class="contact__message">
+                  I would love to hear about your project and how I could help.
+                  Please fill in the form, and I'll get back to you as soon as
+                  possible.
+                </p>
+              </div>
+
+              <form
+                id="contactForm"
+                class="contact__form"
+                method="POST"
+                data-netlify="true"
+              >
+                <!-- <label for="name">Name</label> -->
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="NAME"
+                  required
+                />
+                <span class="error-message" id="name-error"></span>
+
+                <!-- <label for="email">Email</label> -->
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="EMAIL"
+                  required
+                />
+                <span class="error-message" id="email-error"></span>
+
+                <!-- <label for="message">Message</label> -->
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="MESSAGE"
+                  rows="4"
+                  cols="50"
+                  required
+                >
+                </textarea>
+
+                <span class="error-message" id="message-error"></span>
+
+                <button type="submit" class="send-msg-btn">Send message</button>
+              </form>
+            </div>
+          </section>
+
+          <footer>
+            <span class="myname">estherrose</span>
+            <nav class="nav__socials">
+              <ul>
+                <li>
+                  <a href="https://github.com/codarose"
+                    ><img
+                      src="assets/images/icon-github.svg"
+                      alt="navigate to my github page"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.frontendmentor.io/profile/codarose"
+                    ><img
+                      src="assets/images/icon-frontend-mentor.svg"
+                      alt="navigate to my front-end mentor portfolio"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/esther-kearney-4757698a/"
+                    ><img
+                      src="assets/images/icon-linkedin.svg"
+                      alt="navigate to my linkedIn page"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/estherauthor"
+                    ><img
+                      src="assets/images/icon-twitter.svg"
+                      alt="navigate to my twitter feed"
+                  /></a>
+                </li>
+              </ul>
+            </nav>
+          </footer>
+        </div>
+      </div>
+    </main>
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
